@@ -40,7 +40,10 @@
                     "-lXtst",
                     "-lpangoft2-1.0",
                     "-lfontconfig",
-                    "-lfreetype"                    
+                    "-lfreetype",
+                    "-lXxf86vm",
+                    "-lXext",
+                    "-lX11"                    
                 ]
             },
             "osx":{
